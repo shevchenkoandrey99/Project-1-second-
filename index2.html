@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="top-nav">
+                <div class="nav-item">Корпоративным клиентам</div>
+                <div class="nav-item">Авиабилеты</div>
+                <div class="nav-item">Справка</div>
+                <div class="nav-item language-selector">
+                    Язык <i class="fas fa-chevron-down"></i>
+                    <div class="language-menu">
+                        <a href="#">Русский</a>
+                        <a href="#">English</a>
+                        <a href="#">Deutsch</a>
+                        <a href="#">中文</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header-content">
+                <h1 class="welcome-text">Лучшие авиабилеты по самым низким ценам</h1>
+
+                <div class="service-buttons">
+                    <div class="service-button active">
+                        <i class="fas fa-plane"></i>
+                        <span>Авиабилеты</span>
+                    </div>
+                    <div class="service-button">
+                        <i class="train"></i>
+                        <span>Ж/д билеты</span>
+                    </div>
+                    <div class="service-button">
+                        <i class="bus"></i>
+                        <span>Автобусы</span>
+                    </div>
+                    <div class="service-button">
+                        <i class="hotel"></i>
+                        <span>Отели</span>
+                        <span class="discount-badge">-60%</span>
+                    </div>
+                    <div class="service-button">
+                        <i class="shield-alt"></i>
+                        <span>Страхование</span>
+                    </div>
+                </div>
+                
+                <div class="search-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input type="text" id="from" placeholder="Откуда">
+                        </div>
+                        
+                        <div class="input-group">
+                            <input type="text" id="to" placeholder="Куда">
+                        </div>
+                        
+                        <div class="input-group">
+                            <input type="date" id="departure" placeholder="Туда">
+                        </div>
+                        
+                        <div class="input-group">
+                            <input type="date" id="return" placeholder="Обратно">
+                        </div>
+                        
+                        <div class="input-group">
+                            <select id="passengers">
+                                <option>1 пассажир, эконом</option>
+                                <option>2 пассажира, эконом</option>
+                                <option>1 пассажир, бизнес</option>
+                                <option>2 пассажира, бизнес</option>
+                                <option>Семья (2+2), эконом</option>
+                            </select>
+                        </div>
+                        
+                        <button class="search-button">Найти</button>
+                    </div>
+        
+                </div>
+                <div class="complex-route">
+                    <button>+ Добавить сложный маршрут</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <h3>Лучшие цены</h3>
+                    <p>Сравните цены на авиабилеты от 800 авиакомпаний и сервисов бронирования</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Умный поиск</h3>
+                    <p>Найдите идеальный рейс по лучшей цене с помощью нашего умного поиска</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Безопасная оплата</h3>
+                    <p>Забронируйте билеты безопасно с нашей защищённой системой оплаты</p>
+                </div>
+            </section>
+            
+            <section class="special-offers">
+                <h2 class="section-title">Специальные предложения</h2>
+                
+                <div class="offers-grid">
+                    <div class="offer-card">
+                        <div class="offer-image">Стамбул</div>
+                        <div class="offer-content">
+                            <h3>Стамбул, Турция</h3>
+                            <p>Прямые рейсы из Москвы</p>
+                            <div class="price">от 8 490 ₽</div>
+                            <p>Апрель - Июнь 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="offer-card">
+                        <div class="offer-image">Дубай</div>
+                        <div class="offer-content">
+                            <h3>Дубай, ОАЭ</h3>
+                            <p>Прямые рейсы из Санкт-Петербурга</p>
+                            <div class="price">от 15 320 ₽</div>
+                            <p>Сентябрь - Декабрь 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="offer-card">
+                        <div class="offer-image">Бангкок</div>
+                        <div class="offer-content">
+                            <h3>Бангкок, Таиланд</h3>
+                            <p>Рейсы с одной пересадкой</p>
+                            <div class="price">от 21 750 ₽</div>
+                            <p>Октябрь 2023 - Март 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О компании</h3>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Партнёры</a></li>
+                        <li><a href="#">Реклама</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Помощь</h3>
+                    <ul>
+                        <li><a href="#">Частые вопросы</a></li>
+                        <li><a href="#">Правила использования</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Условия оплаты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Направления</h3>
+                    <ul>
+                        <li><a href="#">Популярные направления</a></li>
+                        <li><a href="#">Страны</a></li>
+                        <li><a href="#">Города</a></li>
+                        <li><a href="#">Аэропорты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Подписка</h3>
+                    <p>Подпишитесь на наши новости и специальные предложения</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2023 AviaSales. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
