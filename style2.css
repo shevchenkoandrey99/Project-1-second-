@@ -82,9 +82,11 @@ header {
 }
 
 .welcome-text {
-    font-size: 28px;
+    font-size: 45px;
     margin-bottom: 30px;
-    font-weight: 300;
+    font-weight: 500;
+    color:#FF4D4D; 
+    margin-left:-170px;
 }
 
 .service-buttons {
@@ -201,6 +203,7 @@ header {
     cursor: pointer;
     font-size: 14px;
     text-decoration: underline;
+    color: white;
 }
 
 /* Main Content Styles */
