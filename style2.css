@@ -108,7 +108,7 @@ header {
     font-size: 14px;
     transition: all 0.3s;
     display: flex;
-    
+    margin-bottom: 20px;
 }
 
 .service-button:hover {
@@ -206,7 +206,7 @@ header {
     cursor: pointer;
     font-size: 14px;
     color: white;
-    margin-left: -1060px;
+    margin-left: -1150px;
 }
 /* Основной контент */
 main {
@@ -573,7 +573,7 @@ main {
   }
   
   .footer-col a:hover {
-    color: #4285f5;
+    color: lightgray;
   }
 
   .footer-logos {
@@ -597,15 +597,15 @@ main {
   .partner-btn {
     padding: 10px 20px;
     border: 1px solid #4285f5;
-    color: #4285f5;
     border-radius: 4px;
     font-size: 14px;
     transition: all 0.3s;
+    text-decoration: none;
+    color:  #4285f5;
   }
 
   .partner-btn:hover {
-    background-color: #4285f5;
-    color: white;
+    color: #4285f5 ;
   }
 
   .app-links {
@@ -620,6 +620,7 @@ main {
   .social-links {
     display: flex;
     gap: 10px;
+    color:lightgray;
   }
 
   .social-links a {
